@@ -5,16 +5,17 @@ Ein Projekt zur Bestimmung von Churns
 ## Projekt aufsetzen
 Python Version: 3.6
 
+### Mit Pip
+
+```
+pip install -r pip_requirements.txt
+```
+
 ### Anaconda
 
 ```
-conda create --name ml_workshop python=3.6
+conda create --name ml_workshop --file conda_requirements.txt
 conda activate ml_workshop
-```
-
-Jupyter Notebook aufsetzen
-```
-conda install -c anaconda ipykernel
-python -m ipykernel install --user --name=workshop
+python -m ipykernel install --user --name=ml_workshop
 ```
 
